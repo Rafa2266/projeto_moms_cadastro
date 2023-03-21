@@ -6,9 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Esta é uma aplicação de cadastramento e exibição de usuários para o preocesso seletivo da empresa Clube de Viagens moms.
 
 ### Página de cadastramento de usuários
-![image](https://user-images.githubusercontent.com/55034158/226643914-c62094d1-9209-4219-adcc-8d8cbb0c2ed7.png)
+![image](https://user-images.githubusercontent.com/55034158/226646556-6b173c3f-cd15-4bde-bc7a-9ef1959d86fc.png)
 ### Página de listagem de usuários
-![image](https://user-images.githubusercontent.com/55034158/226645020-346820dc-3c6b-4742-95e1-5d3c5224f343.png)
+![image](https://user-images.githubusercontent.com/55034158/226646809-458efbbe-9624-4e29-8809-9194f2418a6f.png)
 
 
 ## Development server

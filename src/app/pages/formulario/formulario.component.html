@@ -1,1 +1,36 @@
-<p>formulario works!</p>
+
+<div class="container-main">
+    <div class="card col-12 col-md-6 col-xl-4 mt-3 shadow-lg">
+        <div class="card-header px-0" style="background-color: rgb(235, 103, 217);">
+            <div class="row">
+                <div class="container col-12 px-0">
+                    <img class="logo" src="../../../assets/img/logo-moms.png" />
+                </div>
+
+                <h2 class="col-12 text-center text-white my-3 " style="font-family: 'Playfair Display', serif; font-weight: 700;">
+                    Cadastro 
+                </h2>
+            </div>
+        </div>
+         <div class="card-body" style="background-color:rgb(218, 218, 218)">
+           <!--<p *ngIf="message" class="h5 btn-danger p-3 text-center">{{message}}</p> -->
+            <form [formGroup]="formCadastro" class="px-0 px-md-3 px-lg-5 pt-3 pb-2 form-row row">
+                <div class="col-12 pb-4">
+                    <label class="h4 text-bold">Nome</label>
+                    <input class="form-control" formControlName="nome" type="text" />
+                </div>
+                <div class="col-12 col-sm-6 pb-4">
+                    <label class="h4 text-bold">CPF</label>
+                    <input class=" form-control" placeholder="000.000.000-00" maxlength="14" formControlName="cpf" type="text" />
+                </div>
+                <div class="col-12 col-sm-6 pb-4">
+                    <label class="h4 text-bold">Data</label>
+                    <input class=" form-control" formControlName="date" type="date" />
+                </div>
+                <div class="container col-12 pb-4">
+                    <button class="btn mt-3 px-5 mb-0 btn-moms" style="font-size:30px;"  (click)="submitCadastro()" [ngClass]="{'disabled': !formCadastro.valid}"  type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div> 
+    </div>
+</div>

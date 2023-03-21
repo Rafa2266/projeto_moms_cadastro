@@ -1,0 +1,13 @@
+.container-main, .container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disabled{
+     background-color: rgba(235, 103, 217, 0.37) !important;
+}
+.btn-moms{
+    background-color: rgb(235, 103, 217);
+}

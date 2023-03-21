@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { User } from 'src/app/models/User';
 import { UserService } from 'src/app/services/UserService.service';
 import Swal from 'sweetalert2'
@@ -14,7 +15,8 @@ export class FormularioComponent implements OnInit{
 
     constructor( 
       private formBuilder: FormBuilder,
-      private userService: UserService
+      private userService: UserService,
+      private router: Router
     ){}
 
       formCadastro:FormGroup;
@@ -51,6 +53,8 @@ export class FormularioComponent implements OnInit{
          "Usuário " + res.Nome + " criado com sucesso",
          "success"
        );
+      this.router.navigate(['/lista_cadastrados'])
+       
       },err=>{
        Swal.fire(
          "Error",

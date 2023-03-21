@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
+##Sobre
+Esta é uma aplicação de cadastramento e exibição de usuários para o preocesso seletivo da empresa Clube de Viagens moms.
+
+###Página de cadastramento de usuários
+![image](https://user-images.githubusercontent.com/55034158/226643914-c62094d1-9209-4219-adcc-8d8cbb0c2ed7.png)
+###Página de listagem de usuários
+![image](https://user-images.githubusercontent.com/55034158/226645020-346820dc-3c6b-4742-95e1-5d3c5224f343.png)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
